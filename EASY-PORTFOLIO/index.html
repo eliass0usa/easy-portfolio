@@ -1,63 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title></title>
+    <title>Easy Portfólio</title>
 </head>
 <body>
+    <!--
+        Este documento tem como propósito ser um portfólio simples.
+        Inicialmente com apenas HTML e CSS.
+        A primeira versão disponibilizada no GitHub foi em 02/2023
+        Autor: Elias Oliveira
+    -->
+    
     <div class="container">
+        <!-- Navegação -->
         <nav>
             <ul>
-                <li>
-                    <a href="index.html">Sobre mim</a>            
-                </li>
-                <li>
-                    <a href="project.html">Meus Projetos</a>            
-                </li>
-                <li>
-                    <a href="contact.html">Contato</a>            
-                </li>
+                <li><a href="#">Sobre Mim</a></li>
+                <li><a href="#projetos">Meus Projetos</a></li>
+                <li><a href="#contato" class="scroll">Contato</a></li>
             </ul>
         </nav>
-    
-        <header>
-            <div class="center"> 
-                <img src="./img/DB37A2D9-664D-4B60-9728-3117EEEE0DDF.JPEG">
-            </div>
-            <h1>Elias Sousa</h1>
-            <h2>Estágiario em TI</h2>
-        </header>
-    
-        <main>
-            <section>
-                <h3>Sobre mim</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, laboriosam voluptatum! Error consequatur alias nesciunt reiciendis reprehenderit corporis doloribus iusto obcaecati magnam, aliquam officia repudiandae<br> veritatis est ut at incidunt. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas incidunt exercitationem veritatis! Consequatur culpa quas ex mollitia eius, reiciendis ad cum neque quae accusamus asperiores dicta voluptates eveniet unde sit.</p>
-            </section>
-            <section>
-                <h3>Formação</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem tempora in maxime sint incidunt autem quae rem officia quis, accusamus error sunt, cum perferendis ad harum! Cum laudantium ab voluptatem.</p>
-            </section>
-            <section>
-                <h3>Cursos</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem tempora in maxime sint incidunt autem quae rem officia quis, accusamus error sunt, cum perferendis ad harum! Cum laudantium ab voluptatem.</p>
-            </section>
-        </main>
-    
-        <footer>
-            <a href="https://www.linkedin.com/in/eliassousaoliveira/" target="_blank" rel="noopener noreferrer">
-                <img src="./img/linkedin.png">
-                <p>Linkedin</p>
-            </a>
-    
-            <a href="https://github.com/eliass0usa" target="_blank" rel="noopener noreferrer">
-                <img src="./img/github.png">
-                <p>Github</p>
-            </a>
-        </footer>
     </div>
-    
+
+    <header>
+        <!-- Cabeçalho -->
+        <div class="center">
+           <figure><img  id="img-perfil" src="./img/DB37A2D9-664D-4B60-9728-3117EEEE0DDF.JPEG" alt="Foto Perfil"></figure>
+        </div>
+        <h1>Elias Oliveira</h1>
+        <h2>Estagiário em T.I</h2>
+    </header> 
+
+    <main>
+        <!-- Seção Sobre Mim -->
+        <section>
+            <h3>Sobre Mim</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A aspernatur voluptates adipisci beatae necessitatibus pariatur officia sed ut veritatis officiis
+            libero non error, tempora eligendi, iste eveniet totam aperiam sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae asperiores voluptatem delectus maiores repellendus, labore pariatur minus est in blanditiis sed minima, et velit? Autem vel iusto quisquam neque dolores!
+            </p>
+        </section>
+        <br><br>
+        <!-- Seção Formação -->
+        <section>
+            <h3>Formação</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, tempore repudiandae. Ea iste sed commodi omnis laudantium.
+                Sed dignissimos, quisqusam laborum alias inventore unde quia vitae id, porro a quo!</p>
+        </section>
+        <br><br>
+        <!-- Seção Cursos -->
+        <section>
+            <h3>Cursos</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, aliquid iusto. 
+            Quae accusamus porro magni alias incidunt saepe impedit ex, facilis veritatis quisquam rerum fuga aliquam reiciendis aliquid corrupti tempora!</p>
+        </section>
+    </main>
+
+    <section id="projetos">
+        <!-- Seção Meus Projetos -->
+        <h4>Meus Projetos</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, nesciunt ex! Laudantium incidunt minima laboriosam debitis sint? Pariatur ipsa, quisquam, nesciunt esse, consequuntur autem exercitationem veniam iure atque porro voluptatibus.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nobis officia delectus sed. Tempora, harum ad. Eum ullam ut, ab nesciunt commodi, praesentium delectus corrupti voluptatem obcaecati autem mollitia exercitationem.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. In excepturi totam, explicabo aliquid dicta, similique culpa et sunt sapiente rerum consectetur cumque ad nobis eius molestias quod quibusdam blanditiis consequatur.
+        </p>
+
+        <div class="grid-projetos">
+            <div>
+                <figure><img src="" alt="Projeto 1"></figure>
+                <figcaption><a href="#">Projeto 1</a></figcaption>
+            </div>
+            <div>
+                <figure><img src="" alt="Projeto 2"></figure>
+                <figcaption><a href="#">Projeto 2</a></div></figcaption>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contato">
+        <!-- Seção Contato -->
+        <h4>Meus Contatos</h4>
+        <div class="minhas-redes">
+            <a href="#">
+                <figure>
+                    <img class="img-redes" src="./img/linkedin.png" alt="Logo LinkedIn">
+                </figure>
+                <figcaption>Meu LinkedIn</figcaption>
+            </a>
+            
+            <a href="#">
+                <figure>
+                    <img class="img-redes" src="./img/github.png" alt="Logo GitHub">
+                </figure>
+                <figcaption>Meu GitHub</figcaption>
+            </a>
+        </div>
+    </section>
+
+   <footer>
+        <!-- Rodapé -->
+        <p>Autor: Elias Oliveira</p>
+        <p>Inspiração: Adriana Saty</p>
+        <p>2023</p>
+   </footer>
 </body>
 </html>
+
